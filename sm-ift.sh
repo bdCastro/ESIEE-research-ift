@@ -45,7 +45,7 @@ cd -
 # cp ${GRAD_FILE} ift-demo/demo/watershed/images
 
 cd ift-demo/demo/watershed
-./watershed ${IMG} ${GRAD_FILE} seeds/seeds.txt
+./watershed ${IMG} ${GRAD_FILE} ${SEED_FILE}
 mv ${PREFIX}_result.ppm ${OUT_FILE}
 
 # rm -d ../tmp
